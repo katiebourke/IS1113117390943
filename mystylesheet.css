@@ -1,13 +1,22 @@
 .mainheading{
     text-align: center;
+    color: #091034
 }
 
 p {
     font-size: 25px;
     text-align: center;
     font-weight: bold;
+    color: #183BF0;
+    border: 2px solid #1414B8;
+    border-radius: 5px;
 }
 
 body{
-    background-color: rgb(179, 230, 255)
+    background-image: url(https://bennettfeely.com/gradients/img/gradient_8.png);
+    background-size: 590px 510px;
+}
+
+footer{
+    text-align: center
 }

@@ -34,6 +34,7 @@
 
 .section{
     text-align: center;
+    text-shadow: 2px 2px MidnightBlue;
     color: white;
-    font-size: 25px
+    font-size: 35px
 }
