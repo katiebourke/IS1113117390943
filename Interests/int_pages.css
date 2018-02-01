@@ -15,20 +15,20 @@
 #section3{
     background-image: url(https://www.worldtravelguide.net/wp-content/uploads/2017/04/Think-Greece-Country-Santorini-Oia-468940432-marchello74-copy.jpg);
     background-position: center;
-    background-size: 800px 500px;
+    background-size: cover;
 }
 
 #section4{
     background-image: url(https://www.rd.com/wp-content/uploads/2017/07/The-Eiffel-Towers-Electric-Bill-Is-Absurd_166143854_Brian-Kinney-1024x683.jpg);
     background-position: left center ; 
-    background-size: 800px 500px;
+    background-size: cover;
     
 }
 
 #section5{
     background-image: url(https://www.privateinternetaccess.com/blog/wp-content/uploads/2016/12/sydney-australia-day-1024x649.jpg);
     background-position: center;
-    background-size: 900px 500px
+    background-size: cover
     
 }
 

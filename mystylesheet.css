@@ -14,7 +14,7 @@ p {
 
 body{
     background-image: url(https://bennettfeely.com/gradients/img/gradient_8.png);
-    background-size: 590px 510px;
+    background-size: cover;
 }
 
 footer{
