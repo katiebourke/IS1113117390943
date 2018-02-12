@@ -1,6 +1,81 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+    <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    li {
+        float: left;
+    }
+    
+    li a, .dropbtn {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+    }
+    
+    li.dropdown {
+        display: inline-block;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1}
+    
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .active {
+        background-color: #4CAF50;
+    }
+    </style>
+
+
+    <ul>
+      <li><a  href="../homepage.html">Homepage</a></li>
+      
+      
+      <li class="dropdown">
+    <a href="../CV/cv_page1.html" class="dropbtn">CV</a>
+    <div class="dropdown-content">
+      <a href="../CV/cv_page1.html">Personal Details</a>
+      <a href="../CV/cv_page2.html">Educational Details</a>
+      <a href="../CV/cv_page3.html">Work Experience</a>
+    </div>
+  </li>
+      
+      <li><a href="../Interests/sports.html">Interests</a></li>
+      <li><a href="../ebusiness/Ebus1.php">EBusiness</a></li>
+    </ul>
+            
         <title>Personal</title>
          <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -18,7 +93,7 @@
         <p><strong>Phone:</strong> **********</p>
         <p><strong>Email:</strong> 117390943@umail.ucc.ie</p>
         
-        <a href="homepage.html" class="btn btn-dark">Back</a>
+        <a href="../homepage.html" class="btn btn-dark">Back</a>
         <a href="cv_page2.html" class="btn btn-primary">Next</a>
         
     </body>
