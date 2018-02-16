@@ -1,9 +1,15 @@
+<?php
+//Start the session
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>  
     <head>
         <title>Select Product</title>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script type="text/javascript" src="cost_calcs.js"></script>
+        
         
     </head>
     
@@ -53,6 +59,10 @@
        <button onClick="calcSub()">Calculate Cost</button>
        <a role="button" href="Ebus1.php">Clear Choices</a>
     
+        <?php
+            // Set session variables
+            $_SESSION["total"] = $_POST["total"];
+        ?>
     
     </body>
 

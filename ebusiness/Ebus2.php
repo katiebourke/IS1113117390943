@@ -36,7 +36,7 @@ session_start();
             <br/>
             
             <label for="user_pin">PIN</label>
-            <input type="password" id="user_pin" placeholder="Card PIN" maxlength="4">
+            <input type="password" id="user_pin" name="user_pin" placeholder="Card PIN" maxlength="4">
             <br/>
             <br/>
           
@@ -48,9 +48,6 @@ session_start();
             
            
             
-             <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-            ?>
+             
     </body>
 </html>
