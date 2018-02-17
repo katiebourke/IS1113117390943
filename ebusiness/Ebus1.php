@@ -59,10 +59,7 @@ session_start();
        <button onClick="calcSub()">Calculate Cost</button>
        <a role="button" href="Ebus1.php">Clear Choices</a>
     
-        <?php
-            // Set session variables
-            $_SESSION["total"] = $_POST["total"];
-        ?>
+        
     
     </body>
 
