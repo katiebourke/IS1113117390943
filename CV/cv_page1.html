@@ -2,90 +2,49 @@
 <html>
     <head>
 
-    <style>
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: #333;
-    }
-    
-    li {
-        float: left;
-    }
-    
-    li a, .dropbtn {
-        display: inline-block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    
-    li a:hover, .dropdown:hover .dropbtn {
-        background-color: red;
-    }
-    
-    li.dropdown {
-        display: inline-block;
-    }
-    
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        background-color: #f9f9f9;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-    }
-    
-    .dropdown-content a {
-        color: black;
-        padding: 12px 16px;
-        text-decoration: none;
-        display: block;
-        text-align: left;
-    }
-    
-    .dropdown-content a:hover {background-color: #f1f1f1}
-    
-    .dropdown:hover .dropdown-content {
-        display: block;
-    }
-    .active {
-        background-color: #4CAF50;
-    }
-    </style>
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-
-    <ul>
-      <li><a  href="../homepage.html">Homepage</a></li>
-      
-      
-      <li class="dropdown">
-    <a href="../CV/cv_page1.html" class="dropbtn">CV</a>
-    <div class="dropdown-content">
-      <a href="../CV/cv_page1.html">Personal Details</a>
-      <a href="../CV/cv_page2.html">Educational Details</a>
-      <a href="../CV/cv_page3.html">Work Experience</a>
-    </div>
-  </li>
-      
-      <li><a href="../Interests/sports.html">Interests</a></li>
-      <li><a href="../ebusiness/Ebus1.php">EBusiness</a></li>
-    </ul>
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
             
         <title>Personal</title>
          <link rel="stylesheet" href="mystylesheet.css" type="text/css"/>
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    
+
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
+
     </head>
     <body>
+        <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../homepage.html">Home</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">CV</a></li>
+              <li><a href="/Interests/sports.html">Interests</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a  class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CV <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/CV/cv_page1.html">Page 1</a></li>
+                  <li><a href="/CV/cv_page2.html">Page 2</a></li>
+                  <li><a href="/CV/cv_page3.html">Page 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </nav>
+        
         <h1 class="mainheading">Personal Details</h1>
         
         <p><strong>Name:</strong> Katie Bourke</p>
