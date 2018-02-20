@@ -1,8 +1,11 @@
 /* global $*/
 
+var argDiscount;
+var argSubTotal;
+
 function calcSub(){
     
-    var argSubTotal;
+    
     
     if(document.getElementById('salesforce').checked) {
         argSubTotal = 100;
@@ -19,6 +22,23 @@ function calcSub(){
     
     display(argSubTotal);
 }
+
+function calcDisc(){
+    
+    
+    
+    argDiscount = argSubTotal * 0.05;
+    
+    return(argDiscount);
+    
+    
+}
+
+function allCalcs(){
+    calcSub();
+    calcDisc();
+}
+
 
 function display(parm1){
     

@@ -56,11 +56,28 @@ session_start();
         </label>
         
         <br/>
+        <br/>
         
+        <label for="discount">
+            Discount @ 5%
+        <input type="text" id="discount" name="discount" value="0.00" readonly>
+        </label>
+        
+        <br/>
+        <br/>
+
+            
+        <label for="vat">
+            Vat @ 10%
+        <input type="text" id="discount" name="discount" value="0.00" readonly>
+        </label>
+        
+        <br/>
+        <br/>
           
         <label for="total">
-            Total 
-       <input type="hidden" id="total" name="total" value="0.00" readonly/>
+            Total (Subtotal - discount + VAT)
+       <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
         
         <br/>
@@ -70,7 +87,7 @@ session_start();
         </form>
         
        <br/>
-       <button onClick="calcSub()">Calculate Cost</button>
+       <button onClick="allCalcs()">Calculate Cost</button>
        
        <a role="button" href="Ebus1.php">Clear Choices</a>
     
