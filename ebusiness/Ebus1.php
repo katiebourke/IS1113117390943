@@ -28,9 +28,23 @@ session_start();
   
   <br/>
   
-  <label for="aws">
-       <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
+        <label for="cloud9">
+            <input type="radio" id="cloud9" name="product" checked onClick="disablebtnProceed()"/>
+            Cloud 9 @ $200
+        </label>    
+        
+    <br/>
+
+         <label for="aws">
+      <input type="radio" id="aws" name="product" checked onClick="disablebtnProceed()"/>
         AWS @ $300
+        </label>
+        
+    <br/>
+    
+        <label for="gmail">
+            <input type="radio" id="gmail" name="product" checked onClick="disablebtnProceed()"/>
+            Gmail @ $400
         </label>
         
         <br/>
@@ -57,6 +71,7 @@ session_start();
         
        <br/>
        <button onClick="calcSub()">Calculate Cost</button>
+       
        <a role="button" href="Ebus1.php">Clear Choices</a>
     
         
