@@ -2,6 +2,7 @@
 
 var argDiscount;
 var argSubTotal;
+var argVat;
 
 function calcSub(){
     
@@ -27,16 +28,24 @@ function calcDisc(){
     
     
     
-    argDiscount = argSubTotal * 0.05;
+    argDiscount = argSubTotal * .05;
     
-    return(argDiscount);
+    display(argDiscount);
     
+    
+}
+
+function calcVat(){
+    
+    argVat = argSubTotal * .1
+    display(argVat);
     
 }
 
 function allCalcs(){
     calcSub();
     calcDisc();
+    calcVat();
 }
 
 
