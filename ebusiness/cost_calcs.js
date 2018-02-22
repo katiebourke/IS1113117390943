@@ -3,6 +3,7 @@
 var argDiscount;
 var argSubTotal;
 var argVat;
+var argTotal;
 
 function calcSub(){
     
@@ -21,16 +22,16 @@ function calcSub(){
         argSubTotal = 400;
     }
     
-    display(argSubTotal);
+    display1(argSubTotal);
 }
 
-function calcDisc(){
+function calcDisc(argDiscount, argSubTotal){
     
     
     
     argDiscount = argSubTotal * .05;
     
-    display(argDiscount);
+    display2(argDiscount);
     
     
 }
@@ -38,23 +39,41 @@ function calcDisc(){
 function calcVat(){
     
     argVat = argSubTotal * .1
-    display(argVat);
+    display3(argVat);
     
+}
+function calcTotal(){
+    argTotal = argSubTotal - argDiscount + argVat
+    
+    display4(argTotal)
 }
 
 function allCalcs(){
     calcSub();
     calcDisc();
     calcVat();
+    calcTotal();
+    
+    
+    
 }
 
 
-function display(parm1){
+function display1(parm1){
     
     document.getElementById("subtotal").value =parm1;
-    document.getElementById("total").value =parm1;
-
+   
     enablebtnProceed();
+}
+function display2(parm2){
+     document.getElementById("discount").value =parm2; 
+}
+
+function display3(parm3){
+    document.getElementById("vat").value =parm3;
+}
+function display4(parm4){
+    document.getElementById("total").value =parm4;
 }
 
 function enablebtnProceed(){

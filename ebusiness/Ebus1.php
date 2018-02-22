@@ -60,7 +60,7 @@ session_start();
         
         <label for="discount">
             Discount @ 5%
-        <input type="text" id="discount" name="discount" value=argDiscount() readonly>
+        <input type="text" id="discount" name="discount" value="0.00" readonly>
         </label>
         
         <br/>
@@ -69,7 +69,7 @@ session_start();
             
         <label for="vat">
             Vat @ 10%
-        <input type="text" id="discount" name="discount" value="0.00" readonly>
+        <input type="text" id="vat" name="vat" value="0.00" readonly>
         </label>
         
         <br/>
