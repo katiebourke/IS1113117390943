@@ -1,13 +1,13 @@
 /* global $*/
 
+
+
 var argDiscount;
 var argSubTotal;
 var argVat;
 var argTotal;
 
 function calcSub(){
-    
-    
     
     if(document.getElementById('salesforce').checked) {
         argSubTotal = 100;
@@ -22,59 +22,30 @@ function calcSub(){
         argSubTotal = 400;
     }
     
-    display1(argSubTotal);
+    calcDisVatTotal(argSubTotal)
 }
 
-function calcDisc(argDiscount, argSubTotal){
-    
-    
+function calcDisVatTotal(parmSubTotal){
     
     argDiscount = argSubTotal * .05;
     
-    display2(argDiscount);
-    
-    
-}
-
-function calcVat(){
-    
     argVat = argSubTotal * .1
-    display3(argVat);
     
-}
-function calcTotal(){
-    argTotal = argSubTotal - argDiscount + argVat
+    argTotal = argSubTotal - argDiscount + argVat;
     
-    display4(argTotal)
+    display(argSubTotal, argDiscount, argVat, argTotal);
+
 }
 
-function allCalcs(){
-    calcSub();
-    calcDisc();
-    calcVat();
-    calcTotal();
-    
-    
-    
-}
-
-
-function display1(parm1){
-    
+function display(parm1, parm2, parm3, parm4){
     document.getElementById("subtotal").value =parm1;
-   
-    enablebtnProceed();
-}
-function display2(parm2){
-     document.getElementById("discount").value =parm2; 
-}
-
-function display3(parm3){
+    document.getElementById("discount").value =parm2; 
     document.getElementById("vat").value =parm3;
-}
-function display4(parm4){
     document.getElementById("total").value =parm4;
+    
+    enablebtnProceed()
 }
+    
 
 function enablebtnProceed(){
         $('#btnProceed').prop('disabled', false);

@@ -87,7 +87,7 @@ session_start();
         </form>
         
        <br/>
-       <button onClick="allCalcs()">Calculate Cost</button>
+       <button onClick="calcSub()">Calculate Cost</button>
        
        <a role="button" href="Ebus1.php">Clear Choices</a>
     
