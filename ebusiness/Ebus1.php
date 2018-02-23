@@ -6,10 +6,12 @@ session_start();
 <!DOCTYPE html>
 <html>  
     <head>
-        <title>Select Product</title>
+        <title>Select Product</title> 
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script type="text/javascript" src="cost_calcs.js"></script>
-        
+       
+
         
     </head>
     
@@ -87,9 +89,9 @@ session_start();
         </form>
         
        <br/>
-       <button onClick="calcSub()">Calculate Cost</button>
+       <button type = "button" onClick="calcSub()">Calculate Cost</button>
        
-       <a role="button" href="Ebus1.php">Clear Choices</a>
+       <a role="button" type="button" href="Ebus1.php">Clear Choices</a>
     
         
     
