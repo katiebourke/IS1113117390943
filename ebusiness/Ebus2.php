@@ -15,6 +15,7 @@ session_start();
         <title>Enter Details</title>
         
         <!--jQuery-->
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type ="text/javascript" src="Ebus_validator.js"></script>
 
@@ -28,28 +29,30 @@ session_start();
             
             <label for="Name">
               Name
-              <input type="text"  id="Name" placeholder="Enter Name"/>
+              <input type="text"  id="Name" name="Name" placeholder="Enter Name" />
             </label>
             
             <br/>
             <br/>
             <label for="Email">
               Email
-              <input type="text"  id="Email" placeholder="Email Address"/>
+              <input type="text"  id="Email" name="Email" placeholder="Email Address"/>
             </label>
             
             <br/>
             <br/>
             
-            <label for="user_pin">PIN</label>
+            <label for="user_pin">
+              PIN
             <input type="password" id="user_pin" name="user_pin" placeholder="Card PIN" maxlength="4">
+            </label>
             <br/>
             <br/>
           
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
           </form>
             <br/>
-            <button onClick="validateDetails()">Validate</button>
+            <button onClick="enablebtnPurchase()">Validate</button>
             
            
             

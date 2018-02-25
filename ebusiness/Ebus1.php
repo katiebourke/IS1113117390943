@@ -17,7 +17,7 @@ session_start();
     
     <body>
        
-       <h4>Select a Product</h4>
+       <h2>Select a Product</h2>
        
    <br/>
    
@@ -83,16 +83,18 @@ session_start();
         </label>
         
         <br/>
+        <br/>
         
         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
         
-       <br/>
-       <button type = "button" onClick="calcSub()">Calculate Cost</button>
-       
-       <a role="button" type="button" href="Ebus1.php">Clear Choices</a>
-    
+        <br/>
+        <button type = "button" onClick="calcSub()">Calculate Cost</button>
+        
+        <br/>
+        <br/>
+        <a role="button" type="button" class="button" href="Ebus1.php">Clear Choices</a>
         
     
     </body>
