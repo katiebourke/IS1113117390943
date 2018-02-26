@@ -52,7 +52,7 @@ session_start();
             <button type="submit" id="btnPurchase" disabled>Proceed with Purchase</button>
           </form>
             <br/>
-            <button onClick="enablebtnPurchase()">Validate</button>
+            <button onClick="validateDetails()">Validate</button>
             
            
             
