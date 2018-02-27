@@ -1,6 +1,15 @@
 body {
     text-align: center;
+    font-family: Georgia;       
+    font-size: 20px;
+    color:black;
+    background-image: url();
+} 
+            
+h1{
+    font-size:40px;
 }
+
     
 
 

@@ -12,6 +12,7 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
     </head>
     <body>
         <h4>RECEIPT</h4>
@@ -21,6 +22,7 @@ session_start();
         //Echo session variables that were set on previous page
         echo $_SESSION["Name"];
         ?>
+        </br>
         </p>
         <p><strong>Email: </strong>
          <?php
@@ -28,7 +30,7 @@ session_start();
         echo $_SESSION["Email"];
         ?>
         </p>
-        
+        <br/>
         <p><strong>Total: </strong>
         <?php
         //Echo session variables that were set on this page
