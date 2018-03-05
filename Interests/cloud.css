@@ -17,7 +17,7 @@
 
 #section3{
     background-image: url(https://c.slashgear.com/wp-content/uploads/2017/03/Spotify-new-logo-Monthly-Playlist-Indie-Underground-Aaron-McMillan-980x420.jpg);
-    background-size: cover;
+    background-size: cover; 
     background-position: center;
     color:white;
 }
@@ -30,7 +30,9 @@
 }
 
 #section5{
-    background-color:white;
+    background-image: url(https://www.icloud.com/icloud_logo/icloud_logo.png);
+    background-size: 1250px;
+    background-position: center;
     
     
 }

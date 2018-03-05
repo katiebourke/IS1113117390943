@@ -1,22 +1,29 @@
 .mainheading{
     text-align: center;
-    color: #091034
+    color: white;
 }
 
 p {
     font-size: 25px;
-    text-align: center;
-    font-weight: bold;
-    color: #183BF0;
-    border: 2px solid #1414B8;
-    border-radius: 5px;
+    
 }
 
 body{
-    background-image: url(https://bennettfeely.com/gradients/img/gradient_8.png);
+    background-image: url(https://wallpapercave.com/wp/TtjLdl8.jpg);
     background-size: cover;
+    color: white;
+    text-align: center;
 }
 
-footer{
-    text-align: right;
+
+.button{
+    background-color: white; 
+    border-radius: 10px;
+    color: black;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    
 }

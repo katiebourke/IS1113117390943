@@ -37,5 +37,16 @@ session_start();
         echo $_SESSION["total"];
         ?>
         </p>
-    </body>
+        <p>
+        <strong>Date: </strong>
+        <p id="date"></p>
+        
+        <script>
+        var d = new Date();
+        document.getElementById("date").innerHTML = d.toDateString();
+        </script>
+                
+        </p>
+        
+        </body>
 </html> 
