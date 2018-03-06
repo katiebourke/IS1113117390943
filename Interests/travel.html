@@ -1,35 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="uft-8"/>
         <title>Travel</title>
-         <link rel="stylesheet" href="..mystylesheet.css" type="text/css"/>
-         <link rel="stylesheet" href="int_pages.css" type="text/css"/>
         <link rel="stylesheet" type="text/css" href="../CV/navbar.css">
+        <link rel="stylesheet" type="text/css" href="../Interests/slideshow.css">
+        <script type="text/javascript" src="../Interests/slideshow.js"></script>
 
-         
-    
-        <!--Adding Bootstrap-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    
-        <!--Page Piling-->
-        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.css" />
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pagePiling.js/1.5.4/jquery.pagepiling.js"></script>
-        
-        <script type="text/javascript">
-                    $(document).ready(function() {
-        	$('#pagepiling').pagepiling();
-        });
-        </script>
-        
-        
-    </head>
+</head>
     <body>
-    <div>
+        <div>
       <ul>
       <li><a href="../homepage.html">Home</a></li>
       <li class="dropdowns">
@@ -40,7 +19,7 @@
           <a href="../CV/cv_page3.html">Page 3</a>
         </div>
       <li class="dropdowns">
-        <a href="javascript:void(0)" class="dropbtns">Interests</a>
+        <a href="../Interests/sports.html" class="dropbtns">Interests</a>
         <div class="dropdown-contents">
           <a href="../Interests/sports.html">Sport</a>
           <a href="../Interests/travel.html">Travel</a>
@@ -50,25 +29,71 @@
       <li><a href="../ebusiness/Ebus1.php">Ebusiness</a></li>
       </ul>
     </div>
-                  
-        
-        <div id="pagepiling">
-    <div class="section" id="section1">
-        <h1>Travel</h1>
-    </div>        
-	<div class="section" id="section2">Most travelled to: Canada</div>
-	<div class="section" id="section3">Want to visit: Greece</div>
-	<div class="section" id="section4">Most recent visit: Paris</div>
-	<div class="section" id="section5">
-	    Settel in: Australia
-	    <br/>
-	    <br/>
-	    <a href="sports.html" class="btn btn-dark">Back</a>
-        <a href="cloud_services.html" class="btn btn-primary">Next</a>
-	    </div>
-    </div>    
     
+        <h1>Travel</h1><br/>
         
+        <h2 style="text-align:center">Places Visited</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="https://userscontent2.emaze.com/images/50c3be68-1c6f-4e29-b052-896d7efb2115/d00766a0d660e19c280efacca8db11fd.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="https://www.holidayguru.ie/wp-content/uploads/2017/01/Praia-da-Marinha-Strand-Marinha-an-der-Algarve-Portugal-iStock_000066864843_Large-2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="http://www.sgim.org/Image%20Library//SGIM/Meetings/Regional%20Meetings/New%20England/boston.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="http://blog.only-apartments.com/wp-content/uploads/2014/11/london-overview.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="https://a4.odistatic.net/images/landingpages/vacation/640x480/paris_640x480.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="https://www.thebmc.co.uk/Handlers/ArticleImageHandler.ashx?id=8141&index=0&w=605&h=434" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">Prev</a>
+  <a class="next" onclick="plusSlides(1)">Next</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="https://userscontent2.emaze.com/images/50c3be68-1c6f-4e29-b052-896d7efb2115/d00766a0d660e19c280efacca8db11fd.jpg" style="width:100%" onclick="currentSlide(1)" alt="Toronto, Canada">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://www.holidayguru.ie/wp-content/uploads/2017/01/Praia-da-Marinha-Strand-Marinha-an-der-Algarve-Portugal-iStock_000066864843_Large-2.jpg" style="width:100%" onclick="currentSlide(2)" alt="Algarve, Portugal">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://www.sgim.org/Image%20Library//SGIM/Meetings/Regional%20Meetings/New%20England/boston.jpg" style="width:100%" onclick="currentSlide(3)" alt="Boston, USA">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="http://blog.only-apartments.com/wp-content/uploads/2014/11/london-overview.jpg" style="width:100%" onclick="currentSlide(4)" alt="London, UK">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://a4.odistatic.net/images/landingpages/vacation/640x480/paris_640x480.jpg" style="width:100%" onclick="currentSlide(5)" alt="Paris, France">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="https://www.thebmc.co.uk/Handlers/ArticleImageHandler.ashx?id=8141&index=0&w=605&h=434" style="width:100%" onclick="currentSlide(6)" alt="Majorca,Spain">
+    </div>
+  </div>
+</div>
+
         
     </body>
 </html>

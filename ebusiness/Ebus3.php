@@ -39,7 +39,7 @@ session_start();
         </p>
         <p>
         <strong>Date: </strong>
-        <p id="date"></p>
+        <span id="date"></span>
         
         <script>
         var d = new Date();
