@@ -1,9 +1,10 @@
 /* global $*/
 
-
+//Decare variable to count which slide the side show is on. Starts at first slide
 var slideIndex = 1;
 showSlides(slideIndex);
 
+//Every time the slide changes, the slide index also changes
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
@@ -11,7 +12,9 @@ function plusSlides(n) {
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+//Funtion to show the current slide.
+//Slides go from 1 to 6 and then repeat
+//Caption shows the name of the place
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");

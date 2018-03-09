@@ -12,6 +12,7 @@ session_start();
 <html>
     <head>
         <title>RECEIPT</title>
+        <!--link to ebus.css-->
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         
     </head>
@@ -39,6 +40,7 @@ session_start();
         echo $_SESSION["total"];
         ?>
         </p>
+        <!--Adding today's date-->
         <p>
         <strong>Date: </strong>
         <span id="date"></span>
@@ -52,7 +54,7 @@ session_start();
         </p>
         
         <br/><br/>
-        <a role-"button" type="button" class="button"href="Ebus_home.html">Home</a>
+        <a role="button" type="button" class="button" href="Ebus_home.html">Home</a>
 
         </div>
         </body>

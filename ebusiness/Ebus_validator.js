@@ -1,14 +1,15 @@
 /* global $ */
 
 function validateDetails(){
+    //Declaring variables
     var pin;
     var name;
     var email;
-    
+    //Assigning values to variables
     pin = document.getElementById("user_pin").value;
     name= document.getElementById("Name").value;
     email= document.getElementById("Email").value
-
+    //validating so that if a field is left blank an alert shows
     if (name == ""){
         alert("Please enter your name");
     }

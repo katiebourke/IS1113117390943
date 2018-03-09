@@ -1,12 +1,13 @@
 /* global $*/
 
 
-
+//Declaring variables
 var argDiscount;
 var argSubTotal;
 var argVat;
 var argTotal;
 
+//Funtion calculating the sub total based on which radio button is selected
 function calcSub(){
     
     if(document.getElementById('salesforce').checked) {
@@ -25,6 +26,7 @@ function calcSub(){
     calcDisVatTotal(argSubTotal)
 }
 
+//Function to calculate discount, vat and the total 
 function calcDisVatTotal(parmSubTotal){
     
     argDiscount = argSubTotal * .05;
@@ -36,7 +38,7 @@ function calcDisVatTotal(parmSubTotal){
     display(argSubTotal, argDiscount, argVat, argTotal);
 
 }
-
+//display values in the corresponding fields
 function display(parm1, parm2, parm3, parm4){
     document.getElementById("subtotal").value =parm1;
     document.getElementById("discount").value =parm2; 
@@ -49,13 +51,11 @@ function display(parm1, parm2, parm3, parm4){
 
 function enablebtnProceed(){
         $('#btnProceed').prop('disabled', false);
-        color()
+        
     }
     
 function disablebtnProceed(){
         $('#btnProceed').prop('disabled', true);
     }
     
-    function color(){
-    document.getElementById("btnProceed").style.backgroundColor = "0xFFFF00";
-}
+

@@ -7,10 +7,10 @@ session_start();
 <html>  
     <head>
         <title>Select Product</title> 
+        <!--Adding jquery aNd link to ebus.css and cost_calcs.js -->
         <link rel="stylesheet" href="/ebusiness/Ebus.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script type="text/javascript" src="cost_calcs.js"></script>
-       
        
     </head>
     
@@ -20,9 +20,9 @@ session_start();
        <h2>Select a Product</h2>
        
    <br/>
-   
+   <!--form that contains all the infromation that will be input. On completion ebus2.php will show-->
    <form method="POST" action="Ebus2.php">
-       
+       <!--radio buttons-->
        <label for="salesforce">
        <input type="radio" id="salesforce" name="product" checked onClick="disablebtnProceed()"/>
         SalesForce @ $100
@@ -94,7 +94,7 @@ session_start();
         <br/>
         <a role="button" type="button" class="button" href="Ebus1.php">Clear Choices</a>
         <br/><br/>
-        <a role-"button" type="button" class="button"href="Ebus_home.html">Cancel Order</a>
+        <a role="button" type="button" class="button" href="Ebus_home.html">Cancel Order</a>
         <br/><br/>
     </div>
     </body>

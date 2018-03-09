@@ -14,7 +14,7 @@ session_start();
     <head>
         <title>Enter Details</title>
         
-        <!--jQuery-->
+        <!--jQuery and link to ebus.css and ebus validator-->
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type ="text/javascript" src="Ebus_validator.js"></script>
@@ -25,6 +25,7 @@ session_start();
     <body>
       <div>
       <h4>Please enter your payment details</h4>
+      <!--form for payment details. will go to ebus3 when completed -->
         
           <form action="Ebus3.php" method="POST">
             
@@ -55,7 +56,7 @@ session_start();
             <br/>
             <button onClick="validateDetails()">Validate</button>
             <br/><br/>
-           <a role-"button" type="button" class="button"href="Ebus_home.html">Cancel Order</a>
+           <a role="button" type="button" class="button" href="Ebus_home.html">Cancel Order</a>
 
             
            
