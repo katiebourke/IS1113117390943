@@ -13,6 +13,7 @@ session_start();
     <head>
         <title>RECEIPT</title>
         <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        
     </head>
     <body>
         <h4>RECEIPT</h4>
@@ -45,8 +46,13 @@ session_start();
         var d = new Date();
         document.getElementById("date").innerHTML = d.toDateString();
         </script>
+    
                 
         </p>
+        
+        <br/><br/>
+        <a role-"button" type="button" class="button"href="Ebus_home.html">Home</a>
+
         
         </body>
 </html> 

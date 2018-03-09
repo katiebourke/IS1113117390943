@@ -7,15 +7,15 @@ session_start();
 <html>  
     <head>
         <title>Select Product</title> 
-        <link rel="stylesheet" href="Ebus.css" type="text/css"/>
+        <link rel="stylesheet" href="/ebusiness/Ebus.css" type="text/css"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
         <script type="text/javascript" src="cost_calcs.js"></script>
        
-
-        
+       
     </head>
     
     <body>
+       <div>
        
        <h2>Select a Product</h2>
        
@@ -82,21 +82,21 @@ session_start();
        <input type="text" id="total" name="total" value="0.00" readonly/>
         </label>
         
+        <br/><br/>
+          <button type = "button" onClick="calcSub()">Calculate Cost</button>
         <br/>
         <br/>
-        
         <button type="submit" id="btnProceed" disabled>Add to Shopping Cart</button>
         
         </form>
         
-        <br/>
-        <button type = "button" onClick="calcSub()">Calculate Cost</button>
-        
-        <br/>
+       
         <br/>
         <a role="button" type="button" class="button" href="Ebus1.php">Clear Choices</a>
-        
-    
+        <br/><br/>
+        <a role-"button" type="button" class="button"href="Ebus_home.html">Cancel Order</a>
+        <br/>
+    </div>
     </body>
 
 </html>

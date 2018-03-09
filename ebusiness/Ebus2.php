@@ -53,6 +53,9 @@ session_start();
           </form>
             <br/>
             <button onClick="validateDetails()">Validate</button>
+            <br/><br/>
+           <a role-"button" type="button" class="button"href="Ebus_home.html">Cancel Order</a>
+
             
            
             
