@@ -10,9 +10,28 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <style>
-     body{
-       text-align:center;
-     }
+    body{
+        text-align:center;
+    
+    }
+    
+     
+     
+      
+  .container {
+      padding: 80px 120px;
+  }
+  .person {
+      border: 10px solid transparent;
+      margin-bottom: 25px;
+      width: 80%;
+      height: 80%;
+      opacity: 0.7;
+  }
+  .person:hover {
+      border-color: #f1f1f1;
+  }
+  
    </style>
     </head>
     <body>
@@ -39,30 +58,39 @@
 </div>
         
         <h1 class="mainheading">Educational Details</h1>
+   
         
-        <div class="panel panel-danger">
-            <div class="panel-heading">
-              <h3 class="panel-title">Panel title</h3>
-            </div>
-            <div class="panel-body">
-              Panel content
-            </div>
-          </div>
-
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>College</strong></p><br>
+      <a href="#demo" data-toggle="collapse">
+        <img src="https://uccshop.ie/wp-content/uploads/2015/12/1292.jpeg" class="img-circle person" alt="ucc" width="200" height="200">
+      </a>
+      <div id="demo" class="collapse">
+        
         <p><strong>College:</strong> University College Cork</p>
         <p><strong>Course:</strong> Business Information Systems</p>
         <p><strong>Year:</strong> 2017-Present (Expected finish date: 2021)</p>
         
-        <br/>
-        
-        <p><strong>School:</strong> Our Lady's Secondary School </p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Secondary School</strong></p><br>
+      <a href="#demo2" data-toggle="collapse">
+        <img src="http://www.ourladystemplemore.ie/images/logo/OLT_Logo_Colour-w-devils-bit-N-TEXT.png" class="img-circle person" alt="our ladys" width="200" height="200">
+      </a>
+      <div id="demo2" class="collapse">
+       <p><strong>School:</strong> Our Lady's Secondary School </p>
         <p><strong>Address:</strong> Templemore, Co. Tipperary</p>
         <p><strong>Year:</strong> 2011-2017</p>
         
+      </div>
+    </div>
+  </div>
+<br/><br/><br/>
+<p>*Click image for information</p>
         <a href="cv_page1.html" class="btn btn-dark">Back</a>
         <a href="cv_page3.html" class="btn btn-primary">Next</a>
-        
-        
-        
+         
     </body>
 </html>

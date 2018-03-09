@@ -95,7 +95,7 @@ session_start();
         <a role="button" type="button" class="button" href="Ebus1.php">Clear Choices</a>
         <br/><br/>
         <a role-"button" type="button" class="button"href="Ebus_home.html">Cancel Order</a>
-        <br/>
+        <br/><br/>
     </div>
     </body>
 

@@ -21,7 +21,7 @@ session_start();
         
         <p><strong>Name: </strong>
          <?php
-        //Echo session variables that were set on previous page
+        //Echo session variables that were set at top of page 
         echo $_SESSION["Name"];
         ?>
         </br>
@@ -35,7 +35,7 @@ session_start();
         <br/>
         <p><strong>Total: </strong>
         <?php
-        //Echo session variables that were set on this page
+        //Echo session variables that were set on previous page
         echo $_SESSION["total"];
         ?>
         </p>
