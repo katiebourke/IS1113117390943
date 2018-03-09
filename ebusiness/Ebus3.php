@@ -33,8 +33,8 @@ session_start();
         echo $_SESSION["Email"];
         ?>
         </p>
-        <br/>
-        <p><strong>Total: </strong>
+        
+        <p><strong>Total: </strong> $
         <?php
         //Echo session variables that were set on previous page
         echo $_SESSION["total"];
