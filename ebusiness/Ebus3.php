@@ -16,6 +16,7 @@ session_start();
         
     </head>
     <body>
+        <div>
         <h4>RECEIPT</h4>
         
         <p><strong>Name: </strong>
@@ -53,6 +54,6 @@ session_start();
         <br/><br/>
         <a role-"button" type="button" class="button"href="Ebus_home.html">Home</a>
 
-        
+        </div>
         </body>
 </html> 

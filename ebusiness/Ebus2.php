@@ -23,6 +23,7 @@ session_start();
     </head>
     
     <body>
+      <div>
       <h4>Please enter your payment details</h4>
         
           <form action="Ebus3.php" method="POST">
@@ -58,7 +59,7 @@ session_start();
 
             
            
-            
+            </div>
            
             
              
